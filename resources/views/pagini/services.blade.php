@@ -1,5 +1,5 @@
 @extends('layouts.app')
-<!-- Afiseaza Grupul de servicii din functia services 
+<!-- Afiseaza Grupul de servicii din functia services -->
 @section('content')
     <h1>{{$title}}</h1>
     @if(count($services) > 0)
